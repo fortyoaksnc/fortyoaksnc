@@ -1,0 +1,34 @@
+body, html {
+    height: 100%;
+}
+
+hr {
+    border-top: 1px solid gray;
+}
+
+.hero-image {
+    background-image: url("../img/jumbo_original.jpg");
+    /* TO darken image so text is more easily read, see 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    NOTE: values make it too dark; need to experiment */
+    height: 100%;
+ 
+        /* Position and center the image to scale nicely on all screens */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;background-repeat: no-repeat;
+}
+/* Place text in the middle of the image */
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.history {
+    background-image: url("../200x150.png");
+}
